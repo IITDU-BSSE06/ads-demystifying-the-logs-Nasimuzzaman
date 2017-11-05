@@ -15,5 +15,5 @@ for line in sys.stdin:
 	
     oldKey = thisKey;
 
-print count
+print maxCount
 

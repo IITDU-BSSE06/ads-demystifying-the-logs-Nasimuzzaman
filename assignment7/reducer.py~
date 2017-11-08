@@ -3,7 +3,6 @@
 import sys
 
 count = 0
-oldKey = None
 
 
 for line in sys.stdin:
@@ -15,6 +14,7 @@ for line in sys.stdin:
 	print oldKey, "\t", count
 	oldKey = thisKey;
 	count = 1
+
 
     oldKey = thisKey;
     count += 1

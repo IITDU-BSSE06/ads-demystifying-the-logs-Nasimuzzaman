@@ -25,5 +25,5 @@ if count > maxCount:
     maxCount = count;
     filePath = oldKey;
 
-print filePath, "\t", maxCount
+print filePath
 
